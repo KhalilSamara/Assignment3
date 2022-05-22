@@ -1,8 +1,8 @@
 package com.example.assignment3
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class congrats : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,11 +21,5 @@ class congrats : AppCompatActivity() {
             val textDisp = bundle.getString("txt")
             tvDispText.text = textDisp
         }
-
-        /*val sentTo = intent.getStringExtra("to")
-        val sentTxt = intent.getStringExtra("txt")
-
-        tvDispTo.text = sentTo
-        tvDispText.text = sentTxt */
     }
 }
